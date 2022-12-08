@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "832191029193",
+    "project_id": "teamwork-fc0cc",
+    "storage_bucket": "teamwork-fc0cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832191029193:android:288b40c6430f9fd6869218",
+        "android_client_info": {
+          "package_name": "com.example.practic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832191029193-enopi7b24ieqv2dj4bbg4ch1oi770upe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl2w59uZRDkShUMBrnlN_E4Sw7bkaR8A4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832191029193-enopi7b24ieqv2dj4bbg4ch1oi770upe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
