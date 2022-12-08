@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.example.practic.R;
+
 public class MainFirst extends AppCompatActivity {
 
     @Override
