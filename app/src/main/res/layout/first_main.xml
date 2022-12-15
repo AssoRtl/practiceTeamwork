@@ -44,10 +44,11 @@
             android:layout_height="16dp"
             android:layout_marginTop="32dp"
             android:layout_marginEnd="24dp"
-            android:background="#00FFFFFF"
+            android:background="#00000000"
+            android:scaleType="centerCrop"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/menu" />
+            app:srcCompat="@drawable/menu1" />
 
         <ImageView
             android:id="@+id/imageView4"
