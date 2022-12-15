@@ -6,9 +6,9 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo_black"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/logo_black"
         android:supportsRtl="true"
         android:theme="@style/Theme.Practic"
         tools:targetApi="31">
@@ -20,6 +20,33 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.team.AboutActivity"
+            android:exported="true"/>
+        <activity
+            android:name="com.example.team.CountryHousesActivity"
+            android:exported="true"/>
+        <activity
+            android:name="com.example.team.FeedbackActivity"
+            android:exported="true"/>
+        <activity
+            android:name="com.example.team.MediafileActivity"
+            android:exported="true"/>
+        <activity
+            android:name="com.example.team.ProjectActivity"
+            android:exported="true"/>
+        <activity
+            android:name="com.example.team.PublicationActivity"
+            android:exported="true"/>
+        <activity
+            android:name="com.example.team.RewardActivity"
+            android:exported="true"/>
+        <activity
+            android:name="com.example.team.ServicesActivity"
+            android:exported="true"/>
+
+
+
     </application>
 
 </manifest>
