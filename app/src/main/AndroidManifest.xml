@@ -44,9 +44,6 @@
         <activity
             android:name="com.example.team.ServicesActivity"
             android:exported="true"/>
-
-
-
     </application>
 
 </manifest>
