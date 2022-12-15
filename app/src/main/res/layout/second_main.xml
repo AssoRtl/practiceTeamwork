@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainFirst"
+    tools:context="com.example.a1_2.MainSecond"
     android:background="@color/white">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -35,9 +35,10 @@
             android:layout_marginTop="32dp"
             android:layout_marginEnd="24dp"
             android:background="#00FFFFFF"
+            android:scaleType="centerCrop"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/menu" />
+            app:srcCompat="@drawable/menu1" />
 
         <ImageView
             android:id="@+id/imageView6"
