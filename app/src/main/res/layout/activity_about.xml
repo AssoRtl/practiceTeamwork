@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.team.AboutActivity">
+    tools:context=".About">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -338,7 +338,7 @@
                     android:orientation="horizontal">
 
                     <ImageButton
-                        android:id="@+id/imageButton6"
+                        android:id="@+id/ib_publication"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         app:srcCompat="@drawable/_06_12_2022_151021" />
