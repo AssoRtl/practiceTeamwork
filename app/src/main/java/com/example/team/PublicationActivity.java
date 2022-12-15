@@ -1,16 +1,15 @@
-package com.example.a1_2;
+package com.example.team;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
 import com.example.practic.R;
 
-public class MainFirst extends AppCompatActivity {
+public class PublicationActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.first_main);
+        setContentView(R.layout.activity_publication);
     }
 }

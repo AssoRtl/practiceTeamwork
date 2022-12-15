@@ -1,4 +1,4 @@
-package com.example.practic;
+package com.example.team;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,7 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class About extends AppCompatActivity {
+import com.example.practic.R;
+
+public class AboutActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,7 +17,7 @@ public class About extends AppCompatActivity {
     }
 
     public void service(View view) {
-        Intent intent = new Intent(getApplicationContext(), Services.class);
+        Intent intent = new Intent(getApplicationContext(), ServicesActivity.class);
         startActivity(intent);
         finish();
     }

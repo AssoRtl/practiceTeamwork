@@ -1,13 +1,16 @@
-package com.example.practic;
+package com.example.team;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 
-public class Mob_Publication extends AppCompatActivity {
+import com.example.practic.R;
+
+public class MediafileActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mob_publication);
+        setContentView(R.layout.activity_mediafile);
     }
 }

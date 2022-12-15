@@ -1,66 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Mob_Country_Houses">
+    tools:context="com.example.team.CountryHousesActivity">
 
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="84dp"
+            android:layout_height="78dp"
+            app:srcCompat="@drawable/logo_ital_white_1__1_" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/imageView3"
+                android:layout_width="60dp"
+                android:layout_height="2dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="30dp"
+                android:background="@color/btnOrange" />
+
+            <View
+                android:id="@+id/imageView4"
+                android:layout_width="44dp"
+                android:layout_height="2dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="4dp"
+                android:background="@color/btnOrange" />
+
+            <View
+                android:id="@+id/imageView5"
+                android:layout_width="60dp"
+                android:layout_height="2dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="4dp"
+                android:background="@color/btnOrange" />
+        </LinearLayout>
+    </LinearLayout>
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical">
-
-
-            <LinearLayout
-                android:id="@+id/linearLayout"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="32dp"
-                android:layout_marginEnd="32dp"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/imageView2"
-                    android:layout_width="84dp"
-                    android:layout_height="78dp"
-                    app:srcCompat="@drawable/logo_ital_white_1__1_" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                    <View
-                        android:id="@+id/imageView3"
-                        android:layout_width="60dp"
-                        android:layout_height="2dp"
-                        android:layout_gravity="right"
-                        android:layout_marginTop="30dp"
-                        android:background="@color/btnOrange" />
-
-                    <View
-                        android:id="@+id/imageView4"
-                        android:layout_width="44dp"
-                        android:layout_height="2dp"
-                        android:layout_gravity="right"
-                        android:layout_marginTop="4dp"
-                        android:background="@color/btnOrange" />
-
-                    <View
-                        android:id="@+id/imageView5"
-                        android:layout_width="60dp"
-                        android:layout_height="2dp"
-                        android:layout_gravity="right"
-                        android:layout_marginTop="4dp"
-                        android:background="@color/btnOrange" />
-                </LinearLayout>
-            </LinearLayout>
 
             <TextView
                 android:id="@+id/texView2"
@@ -427,4 +433,4 @@
         </LinearLayout>
     </ScrollView>
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

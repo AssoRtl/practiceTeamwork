@@ -1,14 +1,16 @@
-package com.example.practic;
+package com.example.team;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class ProjectActivity extends AppCompatActivity {
+import com.example.practic.R;
+
+public class CountryHousesActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_project);
+        setContentView(R.layout.activity_country_houses);
     }
 }
