@@ -107,7 +107,7 @@
                 android:background="@drawable/housef" />
 
             <ImageButton
-                android:id="@+id/ib_publication"
+                android:id="@+id/imageButton6"
                 android:layout_width="300dp"
                 android:layout_height="300dp"
                 android:layout_marginTop="30dp"

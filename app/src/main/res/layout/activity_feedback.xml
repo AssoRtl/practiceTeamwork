@@ -84,7 +84,7 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/ib_publication"
+                android:id="@+id/imageButton6"
                 style="?android:attr/borderlessButtonStyle"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
