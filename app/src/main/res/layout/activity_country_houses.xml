@@ -72,7 +72,8 @@
                 android:layout_width="300dp"
                 android:layout_height="300dp"
                 android:layout_marginTop="40dp"
-                android:background="@drawable/houseone" />
+                android:background="@drawable/houseone"
+                android:onClick="project"/>
 
             <ImageButton
                 android:id="@+id/imageButton3"
@@ -199,6 +200,7 @@
                         android:textSize="15dp" />
 
                     <EditText
+                        android:id="@+id/personName"
                         android:layout_width="300dp"
                         android:layout_height="60dp"
                         android:paddingStart="20dp"
@@ -206,11 +208,14 @@
                         android:background="@drawable/border"
                         android:gravity="center_vertical"
                         android:hint="@string/YourName"
+                        android:imeOptions="actionNext"
+                        android:importantForAutofill="no"
                         android:inputType="textPersonName"
                         android:textColor="@color/white"
                         android:textColorHint="@color/white" />
 
                     <EditText
+                        android:id="@+id/phoneNumber"
                         android:layout_width="300dp"
                         android:layout_height="60dp"
                         android:paddingStart="20dp"
@@ -219,6 +224,8 @@
                         android:background="@drawable/border"
                         android:gravity="center_vertical"
                         android:hint="@string/PhoneNumber"
+                        android:imeOptions="actionDone"
+                        android:importantForAutofill="no"
                         android:inputType="phone"
                         android:textColor="@color/white"
                         android:textColorHint="@color/white" />
@@ -229,6 +236,7 @@
                         android:layout_marginTop="15dp"
                         android:background="@color/btnOrange"
                         android:text="@string/Send"
+                        android:onClick="send"
                         android:textColor="@color/white" />
 
 

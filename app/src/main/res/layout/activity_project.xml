@@ -1096,23 +1096,31 @@
                 android:textSize="14sp"
                 android:textColor="@color/white"/>
             <EditText
+                android:id="@+id/personName"
                 android:layout_width="300dp"
                 android:layout_height="50dp"
                 android:layout_marginTop="40dp"
                 android:paddingStart="20dp"
                 android:paddingEnd="20dp"
                 android:hint="Ваше имя"
+                android:imeOptions="actionNext"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
                 android:textColorHint="@color/white"
                 android:textSize="14sp"
                 android:textColor="@color/white"
                 android:background="@drawable/image_project_input"/>
             <EditText
+                android:id="@+id/phoneNumber"
                 android:layout_width="300dp"
                 android:layout_height="50dp"
                 android:layout_marginTop="10dp"
                 android:paddingStart="20dp"
                 android:paddingEnd="20dp"
                 android:hint="Номер телефона"
+                android:imeOptions="actionDone"
+                android:importantForAutofill="no"
+                android:inputType="phone"
                 android:textColorHint="@color/white"
                 android:textSize="14sp"
                 android:textColor="@color/white"
@@ -1122,6 +1130,7 @@
                 android:layout_height="50dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="100dp"
+                android:onClick="send"
                 android:background="@drawable/image_project_button"/>
         </LinearLayout>
         <androidx.constraintlayout.widget.ConstraintLayout
