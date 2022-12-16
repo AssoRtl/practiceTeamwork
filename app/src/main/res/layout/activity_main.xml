@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.team.MainActivity"
-    android:background="@color/white">
+    android:background="@color/white"
+    android:id="@+id/mainactivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -45,6 +46,7 @@
             android:layout_marginTop="32dp"
             android:layout_marginEnd="24dp"
             android:background="#00000000"
+            android:onClick="menu"
             android:scaleType="centerCrop"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"

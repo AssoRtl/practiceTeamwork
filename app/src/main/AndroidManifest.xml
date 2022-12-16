@@ -17,33 +17,37 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name="com.example.team.AboutActivity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name="com.example.team.CountryHousesActivity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name="com.example.team.FeedbackActivity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name="com.example.team.MediafileActivity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name="com.example.team.ProjectActivity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name="com.example.team.PublicationActivity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name="com.example.team.RewardActivity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name="com.example.team.ServicesActivity"
-            android:exported="true"/>
+            android:exported="true" />
+        <activity
+            android:name="com.example.team.ActivityMenu"
+            android:exported="true" />
     </application>
 
 </manifest>
