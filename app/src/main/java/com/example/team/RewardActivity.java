@@ -15,6 +15,9 @@ public class RewardActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reward);
     }
-
-
+    public void menu(View view) {
+        Intent intent = new Intent(getApplicationContext(), ActivityMenu.class);
+        startActivity(intent);
+        finish();
+    }
 }

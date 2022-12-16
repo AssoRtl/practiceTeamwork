@@ -38,6 +38,7 @@
             android:layout_marginTop="32dp"
             android:layout_marginEnd="24dp"
             android:layout_gravity="right"
+            android:onClick="menu"
             android:background="#00FFFFFF"
             android:scaleType="centerCrop"
             app:srcCompat="@drawable/menu1" />
@@ -345,6 +346,7 @@
             android:layout_height="wrap_content"
             android:text="Информация"
             android:textSize="14sp"
+            android:textColor="@color/white"
             app:layout_constraintBottom_toTopOf="@+id/imageView13"
             app:layout_constraintStart_toStartOf="@+id/imageView12"
             app:layout_constraintTop_toBottomOf="@+id/imageView12"
@@ -355,6 +357,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="+"
+            android:textColor="@color/white"
             android:textSize="14sp"
             app:layout_constraintBottom_toTopOf="@+id/imageView13"
             app:layout_constraintEnd_toEndOf="@+id/imageView12"
