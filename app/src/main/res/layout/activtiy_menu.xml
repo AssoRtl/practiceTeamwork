@@ -7,6 +7,10 @@
     android:background="@color/white"
     tools:context="com.example.team.ActivityMenu">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
         <TextView
             android:id="@+id/textView32"
             android:layout_width="240dp"
@@ -192,7 +196,4 @@
         </TableRow>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-
 </ScrollView>
