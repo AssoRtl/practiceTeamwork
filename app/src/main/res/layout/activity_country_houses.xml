@@ -16,41 +16,30 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-
         <ImageView
-            android:id="@+id/imageView2"
             android:layout_width="84dp"
             android:layout_height="78dp"
-            app:srcCompat="@drawable/logo_ital_white_1__1_" />
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/logo2">
 
+        </ImageView>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-
-            <View
-                android:id="@+id/imageView3"
+            <ImageButton
                 android:layout_width="60dp"
-                android:layout_height="2dp"
+                android:layout_height="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="24dp"
                 android:layout_gravity="right"
-                android:layout_marginTop="30dp"
-                android:background="@color/btnOrange" />
-
-            <View
-                android:id="@+id/imageView4"
-                android:layout_width="44dp"
-                android:layout_height="2dp"
-                android:layout_gravity="right"
-                android:layout_marginTop="4dp"
-                android:background="@color/btnOrange" />
-
-            <View
-                android:id="@+id/imageView5"
-                android:layout_width="60dp"
-                android:layout_height="2dp"
-                android:layout_gravity="right"
-                android:layout_marginTop="4dp"
-                android:background="@color/btnOrange" />
+                android:onClick="menu"
+                android:background="#00FFFFFF"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/menu1" />
         </LinearLayout>
     </LinearLayout>
     <ScrollView

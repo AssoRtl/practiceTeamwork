@@ -22,4 +22,9 @@ public class ServicesActivity extends AppCompatActivity {
         startActivity(intent);
         finish();
     }
+    public void menu(View view) {
+        Intent intent = new Intent(getApplicationContext(), ActivityMenu.class);
+        startActivity(intent);
+        finish();
+    }
 }
