@@ -188,34 +188,41 @@
             android:textColor="#424242" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/personName"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginStart="32dp"
             android:layout_marginTop="32dp"
             android:layout_marginEnd="32dp"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
             android:background="@drawable/yellow_rectangle"
             android:hint="Ваше имя"
             android:paddingStart="24dp" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/phoneNumber"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginStart="32dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="32dp"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="number"
             android:background="@drawable/yellow_rectangle"
             android:hint="Номер телефона"
             android:paddingStart="24dp" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName3"
+            android:id="@+id/yourFeedback"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_marginStart="32dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="32dp"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
             android:background="@drawable/yellow_rectangle"
             android:gravity="top"
             android:hint="Ваш отзыв"
@@ -223,10 +230,11 @@
             android:paddingTop="18dp" />
 
         <ImageButton
-            android:id="@+id/imageButton9"
+            android:id="@+id/send"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginStart="32dp"
+            android:onClick="send"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="32dp"
             app:srcCompat="@drawable/btn_send" />
